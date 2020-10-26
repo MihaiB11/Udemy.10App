@@ -42,5 +42,11 @@ html, body {
 }
 
 .container p {
-    margin: 100px;
+    margin: 150px;
+}
+
+.message {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #ff9999;
 }
