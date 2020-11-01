@@ -2,7 +2,8 @@ from email.mime.text import MIMEText
 import smtplib
 
 def send_email(email, height, average_height, count):
-    from_email = ""
+    #It will not work because the credentials are not specified --> git push
+    from_email = "@gmail.com"
     from_password = ""
     to_email = email
 
